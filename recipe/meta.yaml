@@ -1,5 +1,5 @@
 {% set name = "acro" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5de7d91c7adb3a6ddb82e151ee6e08eeb89f13f627690a5d402f8537d1801daf
+  sha256: 4faa42f31bff3dfef100d8c9358bd5bd9439db76330c94b2ebfd551cea2b7bdc
 
 build:
   number: 0
