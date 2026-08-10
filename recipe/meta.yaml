@@ -1,5 +1,5 @@
 {% set name = "acro" %}
-{% set version = "0.4.12" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3cd6039fb17915d7b0c76bd4cd44e89cd5caee364bf8a31e211314931dea05d1
+  sha256: 5de7d91c7adb3a6ddb82e151ee6e08eeb89f13f627690a5d402f8537d1801daf
 
 build:
   number: 0
@@ -28,6 +28,8 @@ requirements:
     - pandas <=2.3.3
     - PyYAML
     - statsmodels
+    - rdflib
+    - tabulate
 
 test:
   imports:
