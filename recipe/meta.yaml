@@ -1,13 +1,13 @@
 {% set name = "acro" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4faa42f31bff3dfef100d8c9358bd5bd9439db76330c94b2ebfd551cea2b7bdc
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: ea1c6c3a8f93e55cc82c55232fe9d4198a4e1a1b288fd1193b13ff26890d5c58
 
 build:
   number: 0
